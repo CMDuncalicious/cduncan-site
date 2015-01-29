@@ -1,0 +1,68 @@
+html {
+  background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
+  url(../img/comicbackground.jpg) no-repeat center center fixed;
+  background-size: 100% auto;
+  background-repeat: repeat;
+}
+
+body {
+  font-family: Helvetica, serif;
+  padding: 20px;
+}
+
+header1{
+  text-align: center;
+  margin-top: 5%;
+  margin-right: 48%;
+  margin-left: 48%;
+  color: #FFF;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 3%;
+  width: 200px;
+  height: 200px;
+}
+.caption {
+  text-align: center;
+  margin-top: 3%;
+  margin-left: 20%;
+  margin-right: 20%;
+  line-height: 2em;
+  color: #FFF;
+}
+.paragraph1 {
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  line-height: 2em;
+  color: #FFF;
+  padding: 10px;
+}
+
+.paragraph2 {
+  text-align: center;
+  margin-top: 3%;
+  margin-left: 20%;
+  margin-right: 20%;
+  line-height: 2em;
+  color: #FFF;
+  padding: 10px;
+}
+
+.skills {
+  color: #FFF;
+  list-style: square;
+  text-align: center;
+  margin-top: 0%;
+}
+
+.skills li {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  font-style: italics;
+}
