@@ -1,17 +1,21 @@
 html {
   background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
-  url(../img/comicbackground.jpg) no-repeat center center fixed;
+  url(../img/blue.jpg) no-repeat center center fixed;
   background-size: 100% auto;
   background-repeat: repeat;
 }
 
 body {
   font-family: Helvetica, serif;
-  padding: 20px;
+  width: 100%;
+  height: 100%;
 }
-
+/*iphone*/
+@media only screen and (min-width : 320px)
+{
 header1{
   text-align: center;
+  font-size: 1.5em
   margin-top: 5%;
   margin-right: 48%;
   margin-left: 48%;
@@ -21,24 +25,178 @@ header1{
 img {
   display: block;
   margin: 0 auto;
+  margin-top: 7%;
+  width: 75px;
+  height: auto;
+}
+.paragraph1 {
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 1em;
+  font-size: .75em;
+  color: #FFF;
+  padding: 10px;
+}
+
+.paragraph2 {
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 1em;
+  font-size: .75em;
+  color: #FFF;
+  padding: 10px;
+}
+
+.skills {
+  color: #FFF;
+  list-style: square;
+  text-align: center;
+  margin-top: 7%;
+}
+
+.skills li {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  font-style: italics;
+  font-size: .75em;
+}
+}
+/*phones */
+@media only screen and (min-width : 480px)
+{
+header1{
+  text-align: center;
+  font-size: 1.5em
+  margin-top: 5%;
+  margin-right: 48%;
+  margin-left: 48%;
+  color: #FFF;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 7%;
+  width: 100px;
+  height: auto;
+}
+.paragraph1 {
+  text-align: center;
+  margin-top: 7%;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 1.5em;
+  font-size: 1em;
+  color: #FFF;
+  padding: 10px;
+}
+
+.paragraph2 {
+  text-align: center;
+  margin-top: 7%;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 1.5em;
+  font-size: 1em;
+  color: #FFF;
+  padding: 10px;
+}
+
+.skills {
+  color: #FFF;
+  list-style: square;
+  text-align: center;
+  margin-top: 7%;
+}
+
+.skills li {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  font-style: italics;
+  font-size: 1em;
+}
+}
+/*tablets*/
+@media only screen and (min-width : 768px)
+{
+header1{
+  text-align: center;
+  font-size: 1.5em
+  margin-top: 5%;
+  margin-right: 48%;
+  margin-left: 48%;
+  color: #FFF;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 7%;
+  width: 200px;
+  height: auto;
+}
+.paragraph1 {
+  text-align: center;
+  margin-top: 7%;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 1.5em;
+  font-size: 1em;
+  color: #FFF;
+  padding: 10px;
+}
+
+.paragraph2 {
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 1.5em;
+  font-size: 1em;
+  color: #FFF;
+  padding: 10px;
+}
+
+.skills {
+  color: #FFF;
+  list-style: square;
+  text-align: center;
+  margin-top: 7%;
+  padding: 10px;
+}
+
+.skills li {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  font-style: italics;
+  font-size: 1em;
+}
+}
+/*desktops*/
+@media only screen and (min-width : 992px)
+{
+
+img {
+  display: block;
+  margin: 0 auto;
   margin-top: 3%;
   width: 200px;
   height: 200px;
-}
-.caption {
-  text-align: center;
-  margin-top: 3%;
-  margin-left: 20%;
-  margin-right: 20%;
-  line-height: 2em;
-  color: #FFF;
 }
 .paragraph1 {
   text-align: center;
   margin-top: 5%;
   margin-left: 20%;
   margin-right: 20%;
-  line-height: 2em;
+  line-height: 1.5em;
+  font-size: 1.25em;
   color: #FFF;
   padding: 10px;
 }
@@ -48,7 +206,8 @@ img {
   margin-top: 3%;
   margin-left: 20%;
   margin-right: 20%;
-  line-height: 2em;
+  line-height: 1.5em;
+  font-size: 1.25em;
   color: #FFF;
   padding: 10px;
 }
@@ -57,7 +216,7 @@ img {
   color: #FFF;
   list-style: square;
   text-align: center;
-  margin-top: 0%;
+  margin-top: 3%;
 }
 
 .skills li {
@@ -65,4 +224,53 @@ img {
   text-align: center;
   padding: 10px;
   font-style: italics;
+  font-size: 1.25em;
+}
+}
+/*wide screens*/
+@media only screen and (min-width : 1200px)
+{
+img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 3%;
+  width: 200px;
+  height: 200px;
+}
+.paragraph1 {
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  line-height: 1.5em;
+  font-size: 1.25em;
+  color: #FFF;
+  padding: 10px;
+}
+
+.paragraph2 {
+  text-align: center;
+  margin-top: 3%;
+  margin-left: 20%;
+  margin-right: 20%;
+  line-height: 1.5em;
+  font-size: 1.25em;
+  color: #FFF;
+  padding: 10px;
+}
+
+.skills {
+  color: #FFF;
+  list-style: square;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.skills li {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  font-style: italics;
+  font-size: 1.25em;
+}
 }
