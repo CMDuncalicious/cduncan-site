@@ -10,7 +10,7 @@ body {
   width: 100%;
   height: 100%;
 }
-.contact-form {
+.contactinfo-form {
   float: left;
   margin-left: 20%;
   margin-bottom: 10%;
@@ -97,22 +97,19 @@ img {
    width:250px;
    float: left;
    left: 50%;
-   position: relative;
    margin-top:20px;
    margin-left: -175px;
  }
 
- .contact-input {
-   color:#3c3c3c;
+ .contactinfo-input {
+   color:black;
    font-family: Helvetica, serif;
-   font-weight:500;
-   font-size: 18px;
+   font-weight:450;
+   font-size: 20px;
    line-height: 22px;
-   background-color: #fbfbfb;
+   background-color:white;
    margin-bottom: 10px;
    width:100%;
-   box-sizing: border-box;
-   border: 3px solid rgba(0,0,0,0);
  }
 
  textarea {
@@ -133,8 +130,6 @@ img {
    font-size:14px;
    padding-top:12px;
    padding-bottom:12px;
-   margin-top:-4px;
-   font-weight:700;
  }
 }
 /*phones */
@@ -213,22 +208,19 @@ img {
    width:250px;
    float: left;
    left: 50%;
-   position: relative;
    margin-top:20px;
    margin-left: -175px;
  }
 
- .contact-input {
-   color:#3c3c3c;
+ .contactinfo-input {
+   color:black;
    font-family: Helvetica, serif;
-   font-weight:500;
-   font-size: 18px;
+   font-weight:450;
+   font-size: 20px;
    line-height: 22px;
-   background-color: #fbfbfb;
+   background-color: white;
    margin-bottom: 10px;
    width:100%;
-   box-sizing: border-box;
-   border: 3px solid rgba(0,0,0,0);
  }
 
  textarea {
@@ -242,15 +234,13 @@ img {
    font-family:Helvetica, serif;
    float:left;
    width: 100%;
-   border: #fbfbfb solid 4px;
+   border: white solid 4px;
    cursor:pointer;
    background-color: #E21D27;
    color:white;
    font-size:14px;
    padding-top:12px;
    padding-bottom:12px;
-   margin-top:-4px;
-   font-weight:700;
  }
 }
 /*tablets*/
@@ -319,7 +309,6 @@ img {
     margin: 0 auto;
     text-align: center;
     display: block;
-    position: relative;
     margin-top: 5%;
   }
 
@@ -330,29 +319,26 @@ img {
 
   #form-div {
     background-color:rgba(192,192,192,0.4);
+    width:250px;
+    float: left;
+    left: 50%;
+    margin-top:20px;
+    margin-left: -175px;
     padding-left:35px;
     padding-right:35px;
     padding-top:35px;
     padding-bottom:50px;
-    width:250px;
-    float: left;
-    left: 50%;
-    position: relative;
-    margin-top:20px;
-    margin-left: -175px;
   }
 
-  .contact-input {
-    color:#3c3c3c;
+  .contactinfo-input {
+    color:black;
     font-family: Helvetica, serif;
-    font-weight:500;
-    font-size: 18px;
+    font-weight:450;
+    font-size: 20px;
     line-height: 22px;
-    background-color: #fbfbfb;
+    background-color: white;
     margin-bottom: 10px;
     width:100%;
-    box-sizing: border-box;
-    border: 3px solid rgba(0,0,0,0);
   }
 
   textarea {
@@ -366,15 +352,13 @@ img {
     font-family: Helvetica, serif;
     float:left;
     width: 100%;
-    border: #fbfbfb solid 4px;
+    border: white solid 4px;
     cursor:pointer;
     background-color: #E21D27;
     color:white;
     font-size:14px;
     padding-top:12px;
     padding-bottom:12px;
-    margin-top:-4px;
-    font-weight:700;
   }
 }
 /*desktops*/
@@ -434,7 +418,6 @@ img {
     margin: 0 auto;
     text-align: center;
     display: block;
-    position: relative;
     margin-top: 5%;
   }
 
@@ -445,29 +428,26 @@ img {
 
   #form-div {
     background-color:rgba(192,192,192,0.4);
+    width:200px;
+    float: left;
+    left: 50%;
+    margin-top:20px;
+    margin-left: -175px;
     padding-left:35px;
     padding-right:35px;
     padding-top:35px;
     padding-bottom:50px;
-    width:250px;
-    float: left;
-    left: 50%;
-    position: relative;
-    margin-top:20px;
-    margin-left: -175px;
   }
 
-  .contact-input {
-    color:#3c3c3c;
+  .contactinfo-input {
+    color:black;
     font-family: Helvetica, serif;
-    font-weight:500;
-    font-size: 18px;
+    font-weight:450;
+    font-size: 20px;
     line-height: 22px;
-    background-color: #fbfbfb;
+    background-color:white;
     margin-bottom: 10px;
     width:100%;
-    box-sizing: border-box;
-    border: 3px solid rgba(0,0,0,0);
   }
 
   textarea {
@@ -488,8 +468,6 @@ img {
     font-size:14px;
     padding-top:12px;
     padding-bottom:12px;
-    margin-top:-4px;
-    font-weight:700;
   }
 }
 /*wide screens*/
@@ -548,7 +526,6 @@ img {
     margin: 0 auto;
     text-align: center;
     display: block;
-    position: relative;
     margin-top: 5%;
   }
 
@@ -559,29 +536,26 @@ img {
 
   #form-div {
     background-color:rgba(192,192,192,0.4);
+    width: 400px;
+    float: left;
+    left: 50%;
+    margin-top:30px;
+    margin-left: -260px;
     padding-left:35px;
     padding-right:35px;
     padding-top:35px;
     padding-bottom:50px;
-    width: 450px;
-    float: left;
-    left: 50%;
-    position: relative;
-    margin-top:30px;
-    margin-left: -260px;
   }
 
-  .contact-input {
-    color:#3c3c3c;
+  .contactinfo-input {
+    color:black;
     font-family: Helvetica, serif;
-    font-weight:500;
-    font-size: 18px;
+    font-weight:450;
+    font-size: 20px;
     line-height: 22px;
-    background-color: #fbfbfb;
+    background-color: white;
     margin-bottom: 10px;
     width:100%;
-    box-sizing: border-box;
-    border: 3px solid rgba(0,0,0,0);
   }
 
   textarea {
@@ -602,7 +576,5 @@ img {
     font-size:24px;
     padding-top:22px;
     padding-bottom:22px;
-    margin-top:-4px;
-    font-weight:700;
   }
 }
