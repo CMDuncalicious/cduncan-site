@@ -7,14 +7,13 @@ html {
 
 body {
   font-family: Helvetica, serif;
+  background: rgba(0,0,0,0);
   width: 100%;
   height: 100%;
 }
-.navbar {
-    background: #0069AA;
-    margin:0;
-    border:0;
-  }
+.navbar-inverse {
+    background-color: #0069AA;
+    }
 .body-container {
   margin-top: 5%;
 }
@@ -28,8 +27,6 @@ header1{
   text-align: center;
   font-size: 1.5em
   margin-top: 5%;
-  margin-right: 48%;
-  margin-left: 48%;
   color: #FFF;
 }
 
@@ -150,7 +147,7 @@ img {
  }
  #button:hover{
   background-color: rgba(0,0,0,0);
-  color: #E70C31;
+  color: #000000;
 }
 
 .submit:hover {
@@ -304,7 +301,7 @@ img {
  }
  #button:hover{
    background-color: rgba(0,0,0,0);
-   color: #E70C31;
+   color: #000000;
  }
 
  .submit:hover {
@@ -462,7 +459,7 @@ textarea {
   }
   #button:hover{
     background-color: rgba(0,0,0,0);
-    color: #E70C31;
+    color: #000000;
   }
 
   .submit:hover {
@@ -610,7 +607,7 @@ img {
   }
   #button:hover{
     background-color: rgba(0,0,0,0);
-    color: #E70C31;
+    color: #000000;
   }
 
   .submit:hover {
@@ -762,7 +759,7 @@ img {
   }
   #button:hover{
    background-color: rgba(0,0,0,0);
-   color: #E70C31;
+   color: #000000;
  }
 
  .submit:hover {

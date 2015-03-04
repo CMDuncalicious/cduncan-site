@@ -1,32 +1,31 @@
 <html>
 	<head>
+		<meta name="title" content="About me."/>
 		<meta name=“author” content=“Cody Duncan”/>
 		<meta name=“description” content=“This website is to give basic facts and info about myself, for potential employers/colleagues to view.”/>
 		<meta name= “keywords” content=“resume, info, I.T, HTML, python, Java”/>
-		<title>Cody Duncan</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"/>
 		<link href="css/styles.css" type="text/css" rel="stylesheet" />
 	</head>
-  	<body>
-		<nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#aboutme">About Me</a></li>
-            <li><a href="#contactme">Contact Me</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+		<body>
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div id="navbar" class="collapse navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">Home</a></li>
+							<li><a href="#aboutme">About Me</a></li>
+							<li><a href="#contactme">Contact Me</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
 		<div class = "container">
 			<div class="aboutme" id="aboutme">
 			<header1> About me. </header1>
@@ -59,24 +58,25 @@
 		</div>
 			<div class="contactme" id="contactme">
 				<div class="contactinfo-form">
-        <div id="form-main">
-          <div id="form-div">
-            <form class="contactinfo-form" id="form">
-              <p class="name">
-                <input name="name" type="text" class="contactinfo-input" placeholder="Name" id="name" />
-              </p>
-              <p class="email">
-                <input name="email" type="text" class="contactinfo-input" id="email" placeholder="Email" />
-              </p>
-              <p class="text">
-                <textarea name="text" class="contactinfo-input" id="extra" placeholder="Additional Info"></textarea>
-              </p>
-              <div class="submit">
-                <input type="submit" value="Submit" id="button"/>
-              </div>
-            </form>
-          </div>
-        </div>
+				<div id="form-main">
+					<div id="form-div">
+						<form class="contactinfo-form" id="form">
+							<p class="name">
+								<input name="name" type="text" class="contactinfo-input" placeholder="Name" id="name" />
+							</p>
+							<p class="email">
+								<input name="email" type="text" class="contactinfo-input" id="email" placeholder="Email" />
+							</p>
+							<p class="text">
+								<textarea name="text" class="contactinfo-input" id="extra" placeholder="Additional Info"></textarea>
+							</p>
+							<div class="submit">
+								<input type="submit" value="Submit" id="button"/>
+								<div class="ease"></div>
+							</div>
+						</form>
+					</div>
+				</div>
 			</div>
 		</div>
 	</body>
