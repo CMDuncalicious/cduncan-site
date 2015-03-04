@@ -12,7 +12,9 @@ body {
 }
 .navbar {
     background: #0069AA;
-    }
+    margin:0;
+    border:0;
+  }
 .body-container {
   margin-top: 5%;
 }
