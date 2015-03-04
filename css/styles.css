@@ -1,6 +1,6 @@
 html {
   background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
-  url(../img/blue.jpg) no-repeat center center fixed;
+  url(../img/blue.jpg) repeat center center fixed;
   background-size: 100% auto;
   background-repeat: repeat;
 }
@@ -10,13 +10,14 @@ body {
   width: 100%;
   height: 100%;
 }
-.navbar-inverse {
-  background-color: #0A0484
+.navbar {
+    background: #0069AA;
+    }
+.body-container {
+  margin-top: 5%;
 }
-.contactinfo-form {
-  float: left;
-  margin-left: 50%;
-  margin-bottom: 10%
+#form-main{
+  margin-bottom:10%;
 }
 /*iphone*/
 @media only screen and (min-width : 320px)
@@ -77,12 +78,9 @@ img {
   font-style: italics;
   font-size: .75em;
 }
-.map{
-  display: none;
-}
 #form-main{
    width:100%;
-   float:left;
+   padding: 0px;
  }
 
  #form-div {
@@ -94,6 +92,7 @@ img {
    width:250px;
    float: left;
    left: 50%;
+   position:relative;
    margin-top:20px;
    margin-left: -175px;
  }
@@ -101,21 +100,40 @@ img {
  .contactinfo-input {
    color:black;
    font-family: Helvetica, serif;
-   font-weight:450;
-   font-size: 20px;
+   font-weight:500;
+   font-size: 19px;
    line-height: 22px;
    background-color:white;
+   padding: 13px 13px 13px 13px;
    margin-bottom: 10px;
    width:100%;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -ms-box-sizing: border-box;
+   box-sizing: border-box;
  }
-
+ .contactinfo-input:focus{
+    background: #fff;
+    box-shadow: 0;
+    border: 3px solid #E51C33;
+    color: #E1132B;
+    outline: none;
+    padding: 13px 13px 13px 13px;
+  }
+  .focused{
+    color:#30aed6;
+    border:#30aed6 solid 3px;
+  }
  textarea {
      width: 100%;
      height: 100px;
      line-height: 150%;
      resize:vertical;
  }
-
+   input:hover, textarea:hover,
+   input:focus, textarea:focus {
+     background-color:white;
+   }
  #button{
    font-family: Helvetica, serif;
    float:left;
@@ -128,6 +146,30 @@ img {
    padding-top:12px;
    padding-bottom:12px;
  }
+ #button:hover{
+  background-color: rgba(0,0,0,0);
+  color: #E70C31;
+}
+
+.submit:hover {
+  color: #0A82D2;
+}
+
+.ease {
+  width: 0px;
+  height: 74px;
+  background-color: #FFFFFF;
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -o-transition: .3s ease;
+  -ms-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:blue;
+}
 }
 /*phones */
 @media only screen and (min-width : 480px)
@@ -188,12 +230,10 @@ img {
   font-style: italics;
   font-size: 1em;
 }
-.map{
-  display:none;
-}
 #form-main{
    width:100%;
    float:left;
+   padding-top:0px;
  }
 
  #form-div {
@@ -205,6 +245,7 @@ img {
    width:250px;
    float: left;
    left: 50%;
+   position:relative;
    margin-top:20px;
    margin-left: -175px;
  }
@@ -216,17 +257,37 @@ img {
    font-size: 20px;
    line-height: 22px;
    background-color: white;
+   padding: 13px 13px 13px 13px;
    margin-bottom: 10px;
    width:100%;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -ms-box-sizing: border-box;
+   box-sizing: border-box;
  }
+ .contactinfo-input:focus{
+    background: #fff;
+    box-shadow: 0;
+    border: 3px solid #E51C33;
+    color: #E1132B;
+    outline: none;
+    padding: 13px 13px 13px 13px;
+  }
 
+  .focused{
+    color:#30aed6;
+    border:#30aed6 solid 3px;
+  }
  textarea {
      width: 100%;
-     height: 100px;
+     height: 150px;
      line-height: 150%;
      resize:vertical;
  }
-
+ input:hover, textarea:hover,
+   input:focus, textarea:focus {
+     background-color:white;
+   }
  #button{
    font-family:Helvetica, serif;
    float:left;
@@ -239,7 +300,32 @@ img {
    padding-top:12px;
    padding-bottom:12px;
  }
+ #button:hover{
+   background-color: rgba(0,0,0,0);
+   color: #E70C31;
+ }
+
+ .submit:hover {
+   color: #0A82D2;
+ }
+
+ .ease {
+   width: 0px;
+   height: 74px;
+   background-color: #FFFFFF;
+   -webkit-transition: .3s ease;
+   -moz-transition: .3s ease;
+   -o-transition: .3s ease;
+   -ms-transition: .3s ease;
+   transition: .3s ease;
+ }
+
+ .submit:hover .ease{
+   width:100%;
+   background-color:blue;
+ }
 }
+
 /*tablets*/
 @media only screen and (min-width : 768px)
 {
@@ -300,52 +386,67 @@ img {
   font-style: italics;
   font-size: 1em;
 }
-.map {
-    width: 250px;
-    height: 280px;
-    margin: 0 auto;
-    text-align: center;
-    display: block;
-    margin-top: 5%;
-  }
-
   #form-main{
     width:100%;
     float:left;
+    padding:0px;
   }
 
   #form-div {
     background-color:rgba(192,192,192,0.4);
     width:250px;
-    float: left;
-    left: 50%;
-    margin-top:20px;
-    margin-left: -175px;
     padding-left:35px;
     padding-right:35px;
     padding-top:35px;
     padding-bottom:50px;
+    float: left;
+    left: 50%;
+    position: relative;
+    margin-top:20px;
+    margin-left: -175px;
   }
-
-  .contactinfo-input {
+.contactinfo-input {
     color:black;
     font-family: Helvetica, serif;
     font-weight:450;
     font-size: 20px;
     line-height: 22px;
     background-color: white;
+    padding: 13px 13px 13px 13px;
     margin-bottom: 10px;
     width:100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .contactinfo-input:focus{
+    background: #fff;
+    box-shadow: 0;
+    border: 3px solid #E51C33;
+    color: #E1132B;
+    outline: none;
+    padding: 13px 13px 13px 13px;
   }
 
-  textarea {
+  .focused{
+    color:#30aed6;
+    border:#30aed6 solid 3px;
+  }
+
+textarea {
       width: 100%;
-      height: 100px;
+      height: 150px;
       line-height: 150%;
       resize:vertical;
   }
 
-  #button{
+  input:hover, textarea:hover,
+  input:focus, textarea:focus {
+    background-color:white;
+  }
+
+#button{
     font-family: Helvetica, serif;
     float:left;
     width: 100%;
@@ -356,6 +457,30 @@ img {
     font-size:14px;
     padding-top:12px;
     padding-bottom:12px;
+  }
+  #button:hover{
+    background-color: rgba(0,0,0,0);
+    color: #E70C31;
+  }
+
+  .submit:hover {
+    color: #0A82D2;
+  }
+
+  .ease {
+    width: 0px;
+    height: 74px;
+    background-color: #FFFFFF;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    -ms-transition: .3s ease;
+    transition: .3s ease;
+  }
+
+  .submit:hover .ease{
+    width:100%;
+    background-color:blue;
   }
 }
 /*desktops*/
@@ -409,31 +534,24 @@ img {
   font-style: italics;
   font-size: 1.25em;
 }
-.map {
-    width: 300px;
-    height: 350px;
-    margin: 0 auto;
-    text-align: center;
-    display: block;
-    margin-top: 5%;
-  }
-
   #form-main{
     width:100%;
     float:left;
+    padding-top:0px;
   }
 
   #form-div {
     background-color:rgba(192,192,192,0.4);
-    width:200px;
-    float: left;
-    left: 50%;
-    margin-top:20px;
-    margin-left: -175px;
+    width:250px;
     padding-left:35px;
     padding-right:35px;
     padding-top:35px;
     padding-bottom:50px;
+    float: left;
+    left: 50%;
+    position: relative;
+    margin-top:20px;
+    margin-left: -175px;
   }
 
   .contactinfo-input {
@@ -443,16 +561,38 @@ img {
     font-size: 20px;
     line-height: 22px;
     background-color:white;
+    padding: 13px 13px 13px 13px;
     margin-bottom: 10px;
     width:100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .contactinfo-input:focus{
+    background: #fff;
+    box-shadow: 0;
+    border: 3px solid #E51C33;
+    color: #E1132B;
+    outline: none;
+    padding: 13px 13px 13px 13px;
+  }
+
+  .focused{
+    color:#30aed6;
+    border:#30aed6 solid 3px;
   }
 
   textarea {
       width: 100%;
-      height: 100px;
+      height: 150px;
       line-height: 150%;
       resize:vertical;
   }
+  input:hover, textarea:hover,
+   input:focus, textarea:focus {
+     background-color:white;
+   }
 
   #button{
     font-family: Helvetica, serif;
@@ -465,6 +605,30 @@ img {
     font-size:14px;
     padding-top:12px;
     padding-bottom:12px;
+  }
+  #button:hover{
+    background-color: rgba(0,0,0,0);
+    color: #E70C31;
+  }
+
+  .submit:hover {
+    color: #0A82D2;
+  }
+
+  .ease {
+    width: 0px;
+    height: 74px;
+    background-color: #FFFFFF;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    -ms-transition: .3s ease;
+    transition: .3s ease;
+  }
+
+  .submit:hover .ease{
+    width:100%;
+    background-color:blue;
   }
 }
 /*wide screens*/
@@ -517,42 +681,53 @@ img {
   font-style: italics;
   font-size: 1.25em;
 }
-.map {
-    width: 450px;
-    height: 450px;
-    margin: 0 auto;
-    text-align: center;
-    display: block;
-    margin-top: 5%;
-  }
-
   #form-main{
     width:100%;
     float:left;
+    padding-top:0px;
   }
 
   #form-div {
-    background-color:rgba(192,192,192,0.4);
-    width: 400px;
-    float: left;
-    left: 50%;
-    margin-top:30px;
-    margin-left: -260px;
-    padding-left:35px;
-    padding-right:35px;
-    padding-top:35px;
-    padding-bottom:50px;
-  }
-
-  .contactinfo-input {
+   background-color:rgba(192,192,192,0.4);
+   padding-left:35px;
+   padding-right:35px;
+   padding-top:35px;
+   padding-bottom:50px;
+   width: 450px;
+   float: left;
+   left: 50%;
+   position: relative;
+   margin-top:30px;
+   margin-left: -230px;
+ }
+ .contactinfo-input {
     color:black;
-    font-family: Helvetica, serif;
-    font-weight:450;
-    font-size: 20px;
+    font-family: Helvetica,sans-serif;
+    font-weight:500;
+    font-size: 18px;
     line-height: 22px;
-    background-color: white;
+    background-color: #FFFFFF;
+    padding: 13px 13px 13px 13px;
     margin-bottom: 10px;
     width:100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 3px solid rgba(0,0,0,0);
+  }
+  .contactinfo-input:focus{
+    background: #fff;
+    box-shadow: 0;
+    border: 3px solid #E51C33;
+    color: #E1132B;
+    outline: none;
+    padding: 13px 13px 13px 13px;
+  }
+
+  .focused{
+    color:#30aed6;
+    border:#30aed6 solid 3px;
   }
 
   textarea {
@@ -560,6 +735,10 @@ img {
       height: 150px;
       line-height: 150%;
       resize:vertical;
+  }
+  input:hover, textarea:hover,
+  input:focus, textarea:focus {
+    background-color:white;
   }
 
   #button{
@@ -573,5 +752,34 @@ img {
     font-size:24px;
     padding-top:22px;
     padding-bottom:22px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
   }
+  #button:hover{
+   background-color: rgba(0,0,0,0);
+   color: #E70C31;
+ }
+
+ .submit:hover {
+   color: #0A82D2;
+ }
+
+ .ease {
+   width: 0px;
+   height: 74px;
+   background-color: #FFFFFF;
+   -webkit-transition: .3s ease;
+   -moz-transition: .3s ease;
+   -o-transition: .3s ease;
+   -ms-transition: .3s ease;
+   transition: .3s ease;
+ }
+
+ .submit:hover .ease{
+   width:100%;
+   background-color:blue;
+ }
 }

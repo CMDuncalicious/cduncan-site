@@ -1,32 +1,35 @@
 <html>
 	<head>
+		<meta name=“author” content=“Cody Duncan”/>
+		<meta name=“description” content=“This website is to give basic facts and info about myself, for potential employers/colleagues to view.”/>
+		<meta name= “keywords” content=“resume, info, I.T, HTML, python, Java”/>
 		<title>Cody Duncan</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"/>
 		<link href="css/styles.css" type="text/css" rel="stylesheet" />
 	</head>
   	<body>
-			<nav class="navbar navbar-inverse navbar-fixed-top">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-				</div>
-				<div id="navbar" class="collapse navbar-collapse">
-					<ul class="nav navbar-nav">
-						<li class="active"><a href="#">Home</a></li>
-						<li><a href="#aboutme">About Me</a></li>
-						<li><a href="#contactform">Contact</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#contactme">Contact Me</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 		<div class = "container">
+			<div class="aboutme" id="aboutme">
 			<header1> About me. </header1>
-			<meta name=“description” content=“This website is to give basic facts and info about myself, for potential employers/colleagues to view.”/>
-			<meta name= “keywords” content=“resume, info, I.T, HTML, python, Java”/>
 			<p class="caption"> Picture of my face </p>
 			<img src="img/me.jpg" alt="Picture of me" title="Cody Duncan" />
 			<p class="paragraph1"> My name is Cody Duncan, I am an I.T worker for Main Campus Client Services at the University of Toledo,
@@ -53,8 +56,9 @@
 			day.
 
 			"C'mon. Lets do something insane like save the world. - Tony Stark"</p>
-			<meta name=“author” content=“Cody Duncan”/>
-			<div class="contactinfo-form">
+		</div>
+			<div class="contactme" id="contactme">
+				<div class="contactinfo-form">
         <div id="form-main">
           <div id="form-div">
             <form class="contactinfo-form" id="form">
@@ -74,5 +78,6 @@
           </div>
         </div>
 			</div>
+		</div>
 	</body>
 </html>
