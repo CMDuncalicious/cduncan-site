@@ -20,6 +20,21 @@ body {
 #form-main{
   margin-bottom:10%;
 }
+.toggle {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  height: 250px;
+  width: auto;
+  background-color: #0069AA;
+  clear: both;
+}
+.demo {
+  background-color: #E21D27;
+  width: 150px;
+  height: 75px;
+}
 /*iphone*/
 @media only screen and (min-width : 320px)
 {
