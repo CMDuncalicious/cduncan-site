@@ -20,16 +20,6 @@ body {
 #form-main{
   margin-bottom:10%;
 }
-.toggle {
-  display: block;
-  position: relative;
-  margin: 0 auto;
-  text-align: center;
-  height: 250px;
-  width: auto;
-  background-color: #0069AA;
-  clear: both;
-}
 .demo {
   background-color: #E21D27;
   width: 150px;
@@ -51,10 +41,6 @@ img {
   margin-top: 7%;
   width: 75px;
   height: auto;
-}
-.caption{
-  color: white;
-  text-align: center;
 }
 .paragraph1 {
   text-align: center;
@@ -203,10 +189,6 @@ img {
   margin-top: 7%;
   width: 100px;
   height: auto;
-}
-.caption{
-  color: white;
-  text-align: center;
 }
 .paragraph1 {
   text-align: center;
@@ -508,10 +490,6 @@ img {
   width: 200px;
   height: 200px;
 }
-.caption{
-  color: white;
-  text-align: center;
-}
 .paragraph1 {
   text-align: center;
   margin-top: 5%;
@@ -655,10 +633,7 @@ img {
   width: 200px;
   height: 200px;
 }
-.caption{
-  color: white;
-  text-align: center;
-}
+
 .paragraph1 {
   text-align: center;
   margin-top: 5%;
