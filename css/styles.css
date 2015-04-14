@@ -14,16 +14,8 @@ body {
 .navbar-inverse {
     background-color: #0069AA;
     }
-.body-container {
-  margin-top: 5%;
-}
 #form-main{
   margin-bottom:10%;
-}
-.demo {
-  background-color: #E21D27;
-  width: 150px;
-  height: 75px;
 }
 /*iphone*/
 @media only screen and (min-width : 320px)
@@ -109,9 +101,6 @@ img {
    padding: 13px 13px 13px 13px;
    margin-bottom: 10px;
    width:100%;
-   -webkit-box-sizing: border-box;
-   -moz-box-sizing: border-box;
-   -ms-box-sizing: border-box;
    box-sizing: border-box;
  }
  .contactinfo-input:focus{
@@ -121,10 +110,6 @@ img {
     color: #E1132B;
     outline: none;
     padding: 13px 13px 13px 13px;
-  }
-  .focused{
-    color:#30aed6;
-    border:#30aed6 solid 3px;
   }
  textarea {
      width: 100%;
@@ -260,9 +245,6 @@ img {
    padding: 13px 13px 13px 13px;
    margin-bottom: 10px;
    width:100%;
-   -webkit-box-sizing: border-box;
-   -moz-box-sizing: border-box;
-   -ms-box-sizing: border-box;
    box-sizing: border-box;
  }
  .contactinfo-input:focus{
@@ -272,11 +254,6 @@ img {
     color: #E1132B;
     outline: none;
     padding: 13px 13px 13px 13px;
-  }
-
-  .focused{
-    color:#30aed6;
-    border:#30aed6 solid 3px;
   }
  textarea {
      width: 100%;
@@ -344,10 +321,6 @@ img {
   margin-top: 7%;
   width: 200px;
   height: auto;
-}
-.caption{
-  color: white;
-  text-align: center;
 }
 .paragraph1 {
   font-family: 'Quicksand', sans-serif;
@@ -417,9 +390,6 @@ img {
     padding: 13px 13px 13px 13px;
     margin-bottom: 10px;
     width:100%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
     box-sizing: border-box;
   }
   .contactinfo-input:focus{
@@ -429,11 +399,6 @@ img {
     color: #E1132B;
     outline: none;
     padding: 13px 13px 13px 13px;
-  }
-
-  .focused{
-    color:#30aed6;
-    border:#30aed6 solid 3px;
   }
 
 textarea {
@@ -564,9 +529,6 @@ img {
     padding: 13px 13px 13px 13px;
     margin-bottom: 10px;
     width:100%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
     box-sizing: border-box;
   }
   .contactinfo-input:focus{
@@ -576,11 +538,6 @@ img {
     color: #E1132B;
     outline: none;
     padding: 13px 13px 13px 13px;
-  }
-
-  .focused{
-    color:#30aed6;
-    border:#30aed6 solid 3px;
   }
 
   textarea {
@@ -709,9 +666,6 @@ img {
     padding: 13px 13px 13px 13px;
     margin-bottom: 10px;
     width:100%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
     box-sizing: border-box;
     border: 3px solid rgba(0,0,0,0);
   }
@@ -722,11 +676,6 @@ img {
     color: #E1132B;
     outline: none;
     padding: 13px 13px 13px 13px;
-  }
-
-  .focused{
-    color:#30aed6;
-    border:#30aed6 solid 3px;
   }
 
   textarea {
